@@ -190,13 +190,28 @@
   padding: 15px 21px;
 }
 
+.button-save-text {
+  font-family: var(--accent-font), sans-serif;
+  mix-blend-mode: difference;
+  font-size: 14px;
+  line-height: 12.6px;
+  color: #fff;
+}
+
+.button__text-rembemer {
+  font-size: 14px;
+  font-family: var(--accent-font), sans-serif;
+  color: #fff;
+  mix-blend-mode: difference;
+  line-height: 12.6px;
+}
+
 .popup::backdrop {
   background-color: rgba(0 0 0 / 0.8);
 }
 
 .floppy {
   fill: #fff;
-  color: #fff;
   stroke: #fff;
   inline-size: 21px;
   block-size: 21px;
@@ -229,7 +244,7 @@
   text-transform: uppercase;
 }
 
-.button__close {
+.button__close{
   inline-size: 100%;
   text-transform: uppercase;
 }

@@ -245,6 +245,7 @@
 }
 
 .button__close {
+  padding: 12.5px 0;
   inline-size: 100%;
   text-transform: uppercase;
 }

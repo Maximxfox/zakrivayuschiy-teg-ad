@@ -18,11 +18,12 @@
 }
 
 .page {
-  object-fit: cover;
   color: #000000;
   font-family: var(--main-font), sans-serif;
   font-size: 18px;
   background-image: var(--bg-image);
+  background-size: cover;
+  background-color: var(--bg-color);
   background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
@@ -141,6 +142,7 @@
 }
 
 .card__like-button {
+  display: flex;
   position: relative;
   justify-content: center;
   align-items: center;
@@ -194,6 +196,7 @@
 
 .floppy {
   fill: #fff;
+  color: #fff;
   stroke: #fff;
   inline-size: 21px;
   block-size: 21px;
@@ -207,6 +210,10 @@
 }
 
 .popup {
+  display: none;
+}
+
+.popup[open] {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -214,15 +221,11 @@
   max-inline-size: 357px;
 }
 
-.popup:not([open]) {
-  display: none;
-}
-
 .dialog__text {
   font-family: var(--accent-font);
   font-size: 14px;
   line-height: 150%;
-  transform: uppercase;
+  text-transform: uppercase;
 }
 
 .popup_row {

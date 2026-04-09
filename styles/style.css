@@ -50,7 +50,7 @@
   block-size: clamp(18.17rem, 17.36rem + 3.85vw, 20.44rem);
 }
 
-p{
+p {
   line-height: 21px;
   letter-spacing: 0%;
 }
@@ -61,7 +61,7 @@ p{
 }
 
 .header__subtitle {
-  font-size: clamp(0.77rem, 0.6769rem + 0.8451vw, 1.39rem);
+  font-size: clamp(14px, calc(10.8310px + 0.8451vw), 23px);
   text-transform: uppercase;
 }
 
@@ -77,7 +77,7 @@ p{
 .card {
   border: 2px solid var(--accent-color);
   background-color: #fff;
-  inline-size: clamp(20.833rem, 14.476rem + 30.516vi, 38.889rem);
+  inline-size: clamp(375px, calc(260.5634px + 30.5164vw), 700px);
 }
 
 .card__title {

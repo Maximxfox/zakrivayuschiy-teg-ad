@@ -9,6 +9,13 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+@supports (text-stroke: 1px #ffffff) or (-webkit-text-stroke: 1px #ffffff) {
+  .card-label {
+    text-shadow: none;
+    text-stroke: 1px #ffffff;
+    -webkit-text-stroke: 1px #ffffff;
+  }
+}
 
 .page {
   object-fit: cover;
@@ -99,14 +106,6 @@
     1px 0 #ffffff,
     0 -1px #ffffff;
   mix-blend-mode: hard-light;
-}
-
-@supports (text-stroke: 1px #ffffff) or (-webkit-text-stroke: 1px #ffffff) {
-  .card-label {
-    text-shadow: none;
-    text-stroke: 1px #ffffff;
-    -webkit-text-stroke: 1px #ffffff;
-  }
 }
 
 .card__image {

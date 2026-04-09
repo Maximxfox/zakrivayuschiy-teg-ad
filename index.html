@@ -497,10 +497,9 @@
           </button>
         </div>
       </article>
-      <button
-        type="button"
+      <button type="button"
         class="button button__save"
-        onclick="window['dialog-id'].showModal()"
+        onclick="event.preventDefault(); document.getElementById('dialog-id').showModal();"
       >
         <svg
           class="floppy"
@@ -511,6 +510,7 @@
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
+
       <dialog class="popup" id="dialog-id">
         <div class="popup_row">
           <svg class="floppy-dialog" viewBox="0 0 39 39">
@@ -518,10 +518,9 @@
           </svg>
           <span class="dialog__text">Вставьте дискету, чтобы продолжить</span>
         </div>
-        <button
-          type="button"
+        <button type="button"
           class="button button__close"
-          onclick="window['dialog-id'].close()"
+          onclick="event.preventDefault(); document.getElementById('dialog-id').close();"
         >
           <span class="button__text">ОК</span>
         </button>

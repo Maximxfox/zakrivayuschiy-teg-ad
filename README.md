@@ -1,1 +1,1 @@
-https://maximxfox.github.io/zakrivayuschiy-teg-ad/
+https://github.com/Maximxfox/zakrivayuschiy-teg-ad

@@ -16,7 +16,7 @@
 }
 
 .button:focus-visible {
-  box-shadow: 2px 2px 0 #000000;
+  box-shadow: 2px 2px 0 var(--accent-color);;
   transition: box-shadow 0.3s ease;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .card__icon-button:focus-visible {
-  border: 2px solid #000000;
+  border: 2px solid var(--accent-color);;
   transition: border 0.3s ease;
 }
 

@@ -228,6 +228,11 @@
   text-transform: uppercase;
 }
 
+.button__close{
+  inline-size: 100%;
+  text-transform: uppercase;
+}
+
 .popup_row {
   display: flex;
   justify-content: center;

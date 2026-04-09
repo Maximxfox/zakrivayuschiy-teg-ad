@@ -500,7 +500,7 @@
       <button
         type="button"
         class="button button__save"
-        onclick="window['dialog-id'].showModal()"
+        onclick="window['dialog-id'].showModal(); return false;"
         aria-controls="dialog-id"
       >
         <svg
@@ -522,7 +522,7 @@
         <button
           class="button button__close"
           type="button"
-          onclick="window['dialog-id'].close()"
+          onclick="window['dialog-id'].close(); return false;"
         >
           <span class="button__text">ок</span>
         </button>

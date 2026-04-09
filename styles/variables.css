@@ -4,6 +4,10 @@
   --accent-font: "PressStart2P";
   --main-font-weight: 400;
   --title-font-weight: 700;
+  --content-width:clamp(375px, calc(260.5634px + 30.5164vw), 700px);
+  --content-height: clamp(18.17rem, 17.36rem + 3.85vw, 20.44rem);
+  --logo-font-size:clamp(49px, calc(43.3662px + 1.5023vw), 65px);
+  --subtitle-font-size:clamp(14px, calc(10.8310px + 0.8451vw), 23px);
   --bg-color: #fff;
   --accent-color: #000;
   --bg-image:

@@ -226,24 +226,19 @@ p {
   mix-blend-mode: difference;
 }
 
-
 .floppy-dialog {
   flex-shrink: 0;
   inline-size: 39px;
   block-size: 39px;
 }
 
-.popup {
-  display: none;
-  border: 2px solid var(--accent-color);
-  padding: 30px;
-  max-inline-size: 357px;
-}
-
 .popup[open] {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  border: 2px solid var(--accent-color);
+  padding: 30px;
+  max-inline-size: 357px;
 }
 
 .dialog__text {

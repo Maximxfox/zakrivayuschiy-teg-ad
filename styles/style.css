@@ -219,8 +219,7 @@ p {
 }
 
 .floppy {
-  fill: var(--bg-color);
-  stroke: var(--bg-color);
+  color: var(--bg-color);
   inline-size: 21px;
   block-size: 21px;
   mix-blend-mode: difference;

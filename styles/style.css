@@ -124,7 +124,7 @@ p {
 .card__buttons {
   display: flex;
   justify-content: end;
-  padding: 25px;
+  padding: 0 25px 25px 25px;
 }
 
 .button {
